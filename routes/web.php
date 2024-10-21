@@ -1,10 +1,12 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\web\InicioController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('web.inicio');
+Route::controller(InicioController::class)->group(function(){
+    Route::get('/', 'inicio')->name('web.inicio');
+    Route::get('/shop', 'shop')->name('web.shop');
 });
 
 Route::get('/dashboard', function () {
@@ -18,3 +20,5 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+include 'admin.php';
