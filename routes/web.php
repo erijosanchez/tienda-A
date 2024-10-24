@@ -6,7 +6,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::controller(InicioController::class)->group(function(){
     Route::get('/', 'inicio')->name('web.inicio');
-    Route::get('/shop', 'shop')->name('web.shop');
+    Route::get('/Shop', 'shop')->name('web.shop');
+    Route::get('/Categorias', 'categorias')->name('web.categorias');
 });
 
 Route::get('/dashboard', function () {

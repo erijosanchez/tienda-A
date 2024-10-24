@@ -14,4 +14,8 @@ class InicioController extends Controller
     public function shop() {
         return view('web.shop');
     }
+
+    public function categorias() {
+        return view('web.categorías');
+    }
 }

@@ -889,7 +889,7 @@ a:focus {
 
 .wishlist a:hover,
 .wishlist a:focus {
-    color: #8b00ff
+    color: #4a4a4a
 }
 
 .wishlist a .wishlist-count {
@@ -900,17 +900,7 @@ a:focus {
 .cart-dropdown.show .dropdown-toggle,
 .compare-dropdown:hover .dropdown-toggle,
 .compare-dropdown.show .dropdown-toggle {
-    color: #8b00ff
-}
-
-.compare-product-title a:hover,
-.compare-product-title a:focus {
-    color: #fcb941
-}
-
-.compare-actions .action-link:hover,
-.compare-actions .action-link:focus {
-    color: #fcb941
+    color: #4a4a4a
 }
 
 .cart-dropdown .cart-count {
@@ -919,7 +909,7 @@ a:focus {
 
 .cart-dropdown .product-title a:hover,
 .cart-dropdown .product-title a:focus {
-    color: #8b00ff
+    color: #4a4a4a
 }
 
 .wishlist-link .wishlist-count {
@@ -980,6 +970,7 @@ a:focus {
     color: #fcb941
 }
 
+/*HOVER DEL TEXTTOO DEL MENU DESPLEGABLE DE LAS CTAEGORIAS*/
 .menu-vertical li:hover>a,
 .menu-vertical li.show>a,
 .menu-vertical li.active>a {
@@ -995,6 +986,8 @@ a:focus {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/*FINAL DEL ESTILO EL HOVER*/
 
 .mobile-menu-close:hover,
 .mobile-menu-close:focus {

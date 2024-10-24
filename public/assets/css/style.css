@@ -15,7 +15,7 @@ body {
 body {
     font: normal 300 1.4rem/1.86 "Poppins", sans-serif;
     color: #666;
-    background-color: #1C1C1E;
+    background-color: #f5f5f5;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden
@@ -3305,10 +3305,10 @@ p {
         padding: 0
     }
 }
-
+/*HEADER ESTILO PRINCIPALPAL*/
 .header-3 {
     color: #fff;
-    background-color: #2E2E31
+    background-color: #007bff
 }
 
 .header-3 .header-top {
@@ -3336,7 +3336,7 @@ p {
 }
 
 .header-3 .header-bottom {
-    background: linear-gradient(135deg, #00E0FF, #8B00FF);
+    background: linear-gradient(135deg, #56569b, #007BFF, #56569b);
 }
 
 .header-3 .header-bottom .menu>li>a::before {

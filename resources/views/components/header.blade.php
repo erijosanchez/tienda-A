@@ -8,7 +8,7 @@
                 </button>
 
                 <a href="/" class="logo">
-                    <img src="assets/images/logo-a.png" alt="Molla Logo" width="105"
+                    <img src="assets/images/LOGITO.png" alt="Molla Logo" width="105"
                         height="25">
                 </a>
             </div><!-- End .header-left -->
@@ -34,7 +34,6 @@
                         <div class="icon">
                             <i class="icon-user"></i>
                         </div>
-                        <p>Log</p>
                     </a>
                 </div>
                 <div class="dropdown cart-dropdown">
@@ -44,7 +43,6 @@
                             <i class="icon-shopping-cart"></i>
                             <span class="cart-count">0</span>
                         </div>
-                        <p>Cart</p>
                     </a>
 
                     <div class="dropdown-menu dropdown-menu-right">
