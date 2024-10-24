@@ -21,4 +21,4 @@ Route::middleware('auth')->group(function () {
 
 require __DIR__.'/auth.php';
 
-include 'admin.php';
+require_once 'admin.php';
